@@ -16,7 +16,8 @@ function App() {
      <Routes>
       <Route path='/nav' element={<Navbar/>}></Route>
       <Route path='/dash' element={<Main child={<Dashboard/>}/>}></Route>
-      <Route path='/list' element={<Main child={<EmployeeForm/>}/>}></Route>
+      <Route path='/form' element={<Main child={<EmployeeForm/>}/>}></Route>
+      
      </Routes>
     </>
   )

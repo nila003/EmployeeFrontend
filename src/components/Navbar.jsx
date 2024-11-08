@@ -12,7 +12,7 @@ const Navbar = () => {
           EmployeeApp
         </Typography>
         <Link to={'/dash'} style={{color:'white'}}><Button color="inherit">Home</Button></Link>
-        <Link to={'/list'} style={{color:'white'}}><Button color="inherit">Employee List</Button></Link>
+        <Link to={'/form'} style={{color:'white'}}><Button color="inherit">Employee Form</Button></Link>
       </Toolbar>
     </AppBar>
   </Box>
